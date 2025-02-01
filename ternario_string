@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+#define TAM 10
+
+int main(){
+    char senhausuario[TAM];
+    char senha[] = "1234sofi";
+
+    printf("Digite uma senha (até 10 caracteres):\n");
+    scanf("%9s", senhausuario);
+
+    printf("Senha está %s\n", (strcmp(senhausuario,senha) == 0)? "valida" : "invalida");
+ //a função strcmp compara duas strings, e se elas forem iguais (verdadeiras, 0) será o primeiro valor: "válida", caso o contrario será o segundo valor: "inválida"
+
+    return 0;
+}
