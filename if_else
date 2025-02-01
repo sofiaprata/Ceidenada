@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int senhausuario, senha = 1234;
+
+    printf("Digite uma senha (4 números inteiros):\n");
+    scanf("%d", &senhausuario);
+
+    if (senhausuario == senha){
+        printf("Acesso permitido!");
+    }else{
+        printf("Senha incorreta. Acesso negado!");
+    }
+
+    return 0;
+}
+//No seguinte código não há laço de repetição, então caso a senha que o usuário digitar seja diferente da senha definida, o programa encerrará. Não haverá chance dele tentar novamente.
