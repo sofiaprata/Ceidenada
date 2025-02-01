@@ -14,3 +14,7 @@ int main(){
 
     return 0;
 }
+//Em C, qualquer valor diferente de zero é considerado verdadeiro, enquanto zero é considerado falso.
+
+//Se numero for par → numero % 2 == 0 (FALSO) → Executa o else
+//Se numero for ímpar → numero % 2 == 1 (VERDADEIRO) → Executa o if
